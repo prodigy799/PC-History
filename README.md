@@ -1,33 +1,19 @@
-PC Active Window Tracker 
-A lightweight AutoHotkey v2 script that logs the history of active applications on a Windows PC, including start time and estimated usage duration.
+## PC Active Window Tracker
 
-Features
+**PC Active Window Tracker** is a **high-precision AutoHotkey v2** utility designed to **monitor and log active applications on Windows**. It provides **detailed timestamps and estimated usage durations for each foreground application**, ideal for productivity analysis, auditing, or personal workflow tracking.
 
-Tracks the currently active window every few seconds.
+## Key Features
 
-Logs application title, window class, start time, and estimated usage (minutes).
+**Foreground Application Monitoring**: Tracks all active windows in real time.
 
-Outputs data to a simple text file (AppHistory.txt) for later review.
+**Accurate Usage Metrics**: Calculates estimated usage durations in minutes using high-resolution timers.
 
-Fully non-GUI, minimal resource usage.
+**Lightweight & Minimal**: No GUI overhead; fully automated logging to a text file.
 
-Accurate timing using A_TickCount to avoid rounding issues with short durations.
+**Structured Logging**: Outputs clear, structured entries suitable for further analysis.
 
-Easy to run: requires only AutoHotkey v2.
+**Cross-Compatible**: Runs on all Windows systems supporting AutoHotkey v2.
 
-Usage
-
-Install AutoHotkey v2 from autohotkey.com
-.
-
-Save the script as PC_History.ahk.
-
-Run the script; it will start logging your active apps automatically.
-
-Press Ctrl + Esc to exit the script.
-
-Output
-
-Logs are written to AppHistory.txt in the same folder as the script.
-
-                                                                                                                   made with love :)
+**Example Log Entry**
+Visual Studio (VisualStudio) - Started at 20251021_153200 - Estimated usage: 15.2 minutes
+Chrome (Chrome_WidgetWin_1) - Started at 20251021_154750 - Estimated usage: 42.8 minutes
